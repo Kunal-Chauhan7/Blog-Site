@@ -1,0 +1,18 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+.Background{
+    background: url("Images/1.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 210vh;
+    height: 100vh;
+}
+
+.Background img{
+    margin-left: 92%;
+    margin-top: 41%;
+    width: 75px;
+    height: 75px;
+}

@@ -1,0 +1,12 @@
+*{
+    padding: 0px;
+    margin: 0px;
+}
+
+.MainBody{
+    position: relative;
+}
+
+.Headings{
+    position: absolute;
+}
