@@ -63,3 +63,38 @@
     background-color: rgb(255, 255, 255);
     font-family: 'Noto Sans', sans-serif;   
 }
+
+.Middle_section{
+    display: flex;
+}
+
+.ImageOfuser img{
+    width: 45px;
+    height: 45px;
+}
+
+.User_Logout{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 15px;
+    padding-top: 50px;
+}
+
+.teenDotkiKahani{
+    width: 45px;
+    height: 45px;
+}
+
+footer{
+    width: auto;
+    height: 140px;
+    background-color: black;
+    align-content: center;
+    text-align: center;
+}
+
+footer h3{
+    color: white;
+    font-size: xx-large;
+    padding-top: 45px;
+}
