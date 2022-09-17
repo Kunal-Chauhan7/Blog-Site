@@ -41,3 +41,25 @@
     width: 60px;
     height: 60px;
 }
+
+.Middle_section{
+    display: flex;
+    flex-direction: column;
+}
+
+.Titles{
+    height: 350px;
+    width: 50%;
+    overflow-x: hidden;
+    overflow-y: auto;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 15px;
+}
+
+.Tile{
+    height: 100px;
+    width: 100%;
+    background-color: rgb(255, 255, 255);
+    font-family: 'Noto Sans', sans-serif;   
+}
