@@ -33,13 +33,13 @@
 .Icons{
     display: flex;
     gap: 10px;
-    padding-left: 48%;
+    padding-left: 47%;
     padding-top: 20px;
 }
 
 .Icons img{
-    width: 60px;
-    height: 60px;
+    width: 45px;
+    height: 45px;
 }
 
 .Middle_section{
@@ -80,10 +80,6 @@
     padding-top: 50px;
 }
 
-.teenDotkiKahani{
-    width: 45px;
-    height: 45px;
-}
 
 footer{
     width: auto;
@@ -97,4 +93,24 @@ footer h3{
     color: white;
     font-size: xx-large;
     padding-top: 45px;
+}
+
+.Icon_img:hover{
+    transform: scale(1.1);
+    transition: ease-in-out;
+    padding-left: 5px;
+    padding-right: 5px;
+    transition-duration: 100ms;
+}
+
+.Tile u{
+    color: blue;
+}
+
+.Tile :hover{
+    cursor: pointer;
+    transition: ease-in-out;
+    padding-top: 2px;
+    padding-bottom: 2px;
+    transition-duration: 200ms;
 }
