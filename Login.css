@@ -5,8 +5,48 @@
 
 .MainBody{
     position: relative;
+    background-image: url("Images/2.png");
+    width: 210.5vh;
+    height: 100vh;
+    background-size: cover;
+    background-repeat: no-repeat;
 }
 
 .Headings{
     position: absolute;
+    top: 40%;
+    left: 37%;
+}
+.Texty{
+    font-family: 'Dancing Script', cursive;
+    color: white;
+    font-size:x-large;
+}
+
+.Inputy{
+    display: flex;
+    flex-wrap: wrap;
+    width: 100px;
+    gap: 12px;
+    padding-top: 5px;
+}
+
+.InputBlock{
+    display: flex;
+    gap: 15px;
+    border: 2px solid black;
+    padding-left: 15px;
+    height: 20px;
+    width: auto;
+    border-radius: 10px;
+}
+
+.LoginButton{
+    font-family: 'Dancing Script', cursive;
+    margin-top: 15px;
+    width: 100px;
+    height: 35px;
+    background-color: rgba(95, 204, 95, 0.459);
+    color: white;
+    border-radius: 10px;
 }

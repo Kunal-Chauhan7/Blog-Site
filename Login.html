@@ -5,17 +5,26 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@700&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="Login.css">
 </head>
 <body>
     <div class="MainBody">
         <div class="Headings">
-            <h4>Welcome!</h4>
-            <h5>Please Enter Your Credintails To Get Started</h5>
-            <div class="InputBlock">
-                <input type="text" name="" id="" placeholder="UserName">
-                <input type="password" name="" id="" placeholder="Password">
+            <div class="Texty">
+            <h1>Welcome!</h1>
+            <h3>Please Enter Your Credintails To Get Started</h3>
             </div>
+            <div class="Inputy">
+                <form action="">
+                <input class="InputBlock" type="text" name="" id="" placeholder="UserName" required minlength="10" maxlength="20"/>
+                <input class="InputBlock" type="password" name="" id="" placeholder="Password" required minlength="8" maxlength="15"/>
+                <a href="/Index.html"><button class="LoginButton" type="submit"> Login IN</button></a>
+                </form>
+                </div>
+                >
         </div>
     </div>
 </body>
