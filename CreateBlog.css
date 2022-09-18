@@ -31,3 +31,15 @@
     font-weight: 200;
 }
 
+.TextArea{
+    display: flex;
+    gap: 535px;
+    flex-wrap: wrap;
+}
+#Title_{
+    height: 45px;
+}
+
+#AuthorName{
+    height: 45px;
+}
