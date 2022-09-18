@@ -1,0 +1,21 @@
+*{
+    padding: 0px;
+    margin: 0px;
+}
+
+.Background{
+    background-image: url("/Images/2.png");
+    width: vh;
+    height: 100vh;
+    position: relative;
+}
+
+.MainBody{
+    width: 80%;
+    height: 80%;
+    background-color: white;
+    justify-content: center;
+    position: absolute;
+    left: 10%;
+    top: 10%;
+}
