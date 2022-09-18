@@ -8,6 +8,8 @@
     width: vh;
     height: 100vh;
     position: relative;
+    background-repeat: no-repeat;
+    background-size: cover;
 }
 
 .MainBody{
@@ -19,3 +21,13 @@
     left: 10%;
     top: 10%;
 }
+
+#Title_{
+    font-weight: bolder;
+}
+
+#AuthorName{
+    font-style: italic;
+    font-weight: 200;
+}
+

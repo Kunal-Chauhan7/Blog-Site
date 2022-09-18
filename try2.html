@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+	<title>
+		Change Font Style by Option
+		Dropdown Javascript
+	</title>
+</head>
+
+<body style="text-align:center;">
+
+	<div id="">
+		<h1 style="color:green;">
+			<textarea name="" id="" cols="30" rows="10"></textarea>
+		</h1>
+	</div>
+
+	<select id="input-font" class="input"
+		onchange="changeFontStyle (this);">
+
+		<option value="Times New Roman"
+			selected="selected">
+			Times New Roman
+		</option>
+		<option value="Arial">Arial</option>
+		<option value="fantasy">Fantasy</option>
+		<option value="cursive">cursive</option>
+	</select>
+
+	<script>
+		var changeFontStyle = function (font) {
+			document.getElementById(
+				"output-text").style.fontFamily
+						= font.value;
+		}
+	</script>
+</body>
+
+</html>

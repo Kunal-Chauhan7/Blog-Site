@@ -8,19 +8,52 @@
     <link rel="stylesheet" href="CreateBlog.css">
 </head>
 <body>
+    <script>
+        function Bold(){
+            let content = document.getElementById("output-text");
+            let result = content.style.fontWeight = 'bold';
+            document.getElementById("output-text") = result
+        }
+        function italic(){
+            let content = document.getElementById("output-text");
+            let result = content.style.fontStyle = "italic";
+            document.getElementById("output-text") = result
+        }
+        function UnderLine(){
+            let content = document.getElementById("output-text");
+            let result = content.style.textDecoration = "underline";
+            document.getElementById("output-text") = result
+        }
+        var changeFontStyle = function (font) {
+			document.getElementById(
+				"output-text").style.fontFamily
+						= font.value;
+		}
+    </script>
     <div class="Background">
         <div class="MainBody">
             <div class="TextArea">
                 <input type="text" name="" id="Title_" placeholder="Title" required>  
                 <input type="text" placeholder="Author Name" id="AuthorName" required>   
-                <input type="text" placeholder="Your TextArea" id="TextOfBlog" required>
+                <textarea name="" placeholder="Your TextArea" id="output-text" required cols="30" rows="10"></textarea>
             </div> 
             <div class="bottomNavBar">
-                <button><b>B</b></button>
-                <button><em>I</em></button>
-                <button><u>U</u></button>
+                <button onclick="Bold()"><b>B</b></button>
+                <button onclick="italic()"><em>I</em></button>
+                <button onclick="UnderLine()"><u>U</u></button>
                 <button type="submit">Publish</button>
             </div>
+            <select id="input-font" class="input"
+		onchange="changeFontStyle (this);">
+
+		<option value="Times New Roman"
+			selected="selected">
+			Times New Roman
+		</option>
+		<option value="Arial">Arial</option>
+		<option value="fantasy">Fantasy</option>
+		<option value="cursive">cursive</option>
+	</select>
         </div>
     </div>
 </body>
