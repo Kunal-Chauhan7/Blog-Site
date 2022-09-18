@@ -114,3 +114,24 @@ footer h3{
     padding-bottom: 2px;
     transition-duration: 200ms;
 }
+
+.Search{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    width: 250px;
+    display: flex;
+    flex-wrap: wrap;
+    visibility: hidden;
+}
+.Search button{
+    height: 50px;
+    width: 50px;
+    border-radius: 7px;
+    background-color: green;
+    color: black;
+}
+
+.open-popup{
+    visibility: visible;
+}
