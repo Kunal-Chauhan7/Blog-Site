@@ -135,3 +135,7 @@ footer h3{
 .open-popup{
     visibility: visible;
 }
+
+.Tile a{
+    text-decoration: none;
+}
